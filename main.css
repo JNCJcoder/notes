@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    scrollbar-color: #222526 #484e51;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "SEGOE UI", Arial, Helvetica, sans-serif;
+    color: #e3dfd9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #141414;
+}
+
+main {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    background-color:#231f20;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #141414;
+    padding-bottom: 2px;
+}
+
+button {
+    color: #c4beb5;
+    background-color: #545b5f;
+    border-color: #797063;
+    font-weight: 1000;
+    padding: 10px;
+}
+
+.dynamicA a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #818181;
+    cursor: pointer;
+}
+
+.dynamicA a:hover, .dynamicA a:focus {
+    color: #f1f1f1;
+}
+
+.menu {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    padding: 10px 30px;
+    transition: 0.5s;
+    background-color: #191919;
+    overflow-x: hidden;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.noderoot {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.noderoot input {
+    border: 2px solid #00f;
+    border-radius: 3px;
+    height: 20px;
+    padding: 0px 5px;
+}
+
+.division {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}

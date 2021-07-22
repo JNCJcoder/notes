@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <header class="dynamicA">
+        <a onclick="moveSidebar()">&#9776;</a>
+        <a onclick="loadFile('Home')"><h1>📓 <span style="font-size: 1.25rem">Notes</span></h1></a>
+        <a id="saveButton" onclick="saveFile()"><strong>Save</strong></a>
+    </header>
+    <main>
+        <nav class="menu dynamicA" style="display: flex">
+            <ul id="files">
+                <li><a id="1-home" href="javascript:void(0)" onclick="loadFile('Home')">Home</a></li>
+                <!-- Menu -->
+            </ul>
+            <a onclick="createMenu()"><h1>New</h1></a>
+        </nav>
+        <div class="division">
+            <div class="noderoot">
+                <!-- NodeRoot -->
+            </div>
+            <div>
+                <h1 class="editable" onclick="createNewElement('p', 'center')">New Line</h1>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span class="dynamicA">
+            Notes created by <a href="https://github.com/JNCJcoder"><strong>JNCJcoder</strong></a>.
+        </span>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,25 @@
+.editable {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.editable:hover, .editable:focus {
+    background-color: rgba(156,156,156, 0.25);
+}
+
+.title {
+    border-bottom: 1px solid rgb(133, 124, 109);
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+code {
+    text-decoration: none;
+    border-left: 3px solid blue;
+    background-color: rgba(101, 109, 113);
+}
+
+code:hover, code:focus {
+    border-left: 3px solid rgb(0, 0, 65);
+}
